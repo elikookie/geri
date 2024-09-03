@@ -37,7 +37,7 @@ export default function Poetry() {
                 <img className="p-4 w-5/6" src="/post2.png"></img>
               </div>
             </div>
-            <img className="p-4 w-3/6" src="/post3.png"></img>
+            <img className="p-4 w-5/6" src="/post3.png"></img>
 
             <button className="text-5xl" onClick={() => scrollToTop(start)}>
               ↑
