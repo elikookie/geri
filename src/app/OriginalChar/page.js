@@ -40,7 +40,7 @@ export default function OC() {
                 <img className="p-4 w-5/6" src="/oc5.png"></img>
               </div>
             </div>
-            <img className="p-4 w-3/6" src="/oc3.png"></img>
+            <img className="p-4 w-5/6" src="/oc3.png"></img>
 
             <button className="text-5xl" onClick={() => scrollToTop(start)}>
               ↑
