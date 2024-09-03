@@ -61,9 +61,16 @@ export default function Menu() {
           <img className="w-64" src="logo.png"></img>
         </Link>
 
-        <p className="font-bold">Work</p>
+        <p className="font-bold">Contact me</p>
         <hr className="p-2"></hr>
-        
+
+        <Link className="hover:underline" href="/Contact">
+          Contact Info
+        </Link>
+
+        <p className="font-bold pt-5">Work</p>
+        <hr className="p-2"></hr>
+
         <ul className="flex flex-col space-y-3">
           <li>
             <Link className="hover:underline" href="/DigitalArt">
@@ -81,8 +88,8 @@ export default function Menu() {
             </Link>
           </li>
           <li>
-            <Link className="hover:underline" href="/Pshycho">
-              Pshychotypography Collages
+            <Link className="hover:underline" href="/Psycho">
+              Psychotypography Collages
             </Link>
           </li>
           <li>
@@ -117,7 +124,7 @@ export default function Menu() {
           </li>
           <li>
             <Link className="hover:underline" href="/ZineLiveEx">
-            Slice of Life Zine + Live Exhibition
+              Slice of Life Zine + Live Exhibition
             </Link>
           </li>
         </ul>

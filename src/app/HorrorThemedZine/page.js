@@ -22,8 +22,15 @@ export default function HorrorThemedZine() {
               Horror Themed Zine
             </h1>
           </div>
-
-          <div className="grid grid-cols-2">
+          <p className="p-5 text-center lg:p-10">
+            Tap into the mystery surrounding Alyssa! She is an orphan, a young
+            girl that is supposedly being haunted by dark forces. Her cat Yuuna
+            ,who is actually her guardian angel comes to the rescue and gets her
+            out before it is too late...But does Yuuna manage to help Alyssa
+            escape? Or was it all just an illusion...this is up to you to decide
+            as you read through.
+          </p>
+          <div className="lg:grid md:grid grid-cols-2">
             <div>
               <img
                 className="p-10"

@@ -22,9 +22,15 @@ export default function LiveEx() {
               Slice of Life Zine + Live Exhibition
             </h1>
           </div>
+          <p className="p-5 text-center lg:p-10">
+            This is a zine based on a story about a couple arguing about what to
+            do on holidays and what actually matters the most. Their quality
+            time together or how boujee it is? And on the other side you can see
+            how it was exhibited in my college!
+          </p>
 
           <div className="flex flex-col">
-            <div className="grid grid-cols-2">
+            <div className="lg:grid md:grid grid-cols-2">
               <div>
                 <img
                   className="p-10"

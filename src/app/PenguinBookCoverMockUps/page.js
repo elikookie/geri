@@ -22,9 +22,17 @@ export default function Book() {
               Penguin Book Cover Mock Ups
             </h1>
           </div>
-
+          <p className="p-5 text-center lg:p-10">
+            These were a series of book covers under one theme, which was
+            Merry-Go-Round of Life. It depicted characters that found themselves
+            lost in unknown situations and being challenged to find their way
+            out in the most unexpected of ways. The logo accompanying them
+            represents exactly that. The sun being the bright side of things,
+            but the zigzag lines are the hidden &quot;thorns/vines&quot; or the evil so to
+            speak entangled in this whole adventure.
+          </p>
           <div className="flex flex-col">
-            <div className="grid grid-cols-2">
+            <div className="lg:grid md:grid grid-cols-2">
               <div>
                 <img src="/bc1.png"></img>
                 <img src="/bc2.png"></img>

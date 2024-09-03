@@ -22,9 +22,15 @@ export default function OC() {
               Original Characters
             </h1>
           </div>
-
+          <p className="p-5 text-center lg:p-10">
+            My two official OCs are featured here and they are a mix of what I have
+            been influenced by over the years. They hold very personal meaning
+            to me and I had immense creative fun designing them over a few
+            months. All rights are reserved to me and they are from my complete
+            imagination
+          </p>
           <div className="flex flex-col items-center">
-            <div className="grid grid-cols-2 ">
+            <div className="lg:grid md:grid grid-cols-2 ">
               <div>
                 <img className="p-4 w-5/6" src="/oc1.png"></img>
               </div>

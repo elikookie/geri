@@ -23,6 +23,11 @@ export default function Coffee() {
             </h1>
           </div>
 
+          <p className="p-5 text-center lg:p-10">
+            An original redesign of a Nescafé Coffee Box with my own flavour. I
+            wanted it to look playful and lighthearted due to the high sugar
+            rush flavour and perhaps indulging my own imagination.
+          </p>
           <div className="flex flex-col">
             <img
               className="p-10"

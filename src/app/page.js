@@ -45,14 +45,15 @@ export default function Home() {
       <div className="grid lg:grid-cols-4 gap-4">
         <Menu></Menu>
         <div class="lg:col-span-3">
-          <div className="flex flex-col bg-slate-100 px-20 pt-20 pb-5">
-            <p className="tinos-bold text-xl text-center p-10">
+          <div className="flex flex-col bg-slate-100 p-5 lg:px-20 pt-20 pb-5">
+            <p className="tinos-bold text-xl text-center lg:p-10">
               Hi, my name is Gergana Koleva (Geri) and I am a self-taught
               artist. I have been passionate about art since 2016 and have been
               practising digital illustration as well as graphite pencil
               drawings as my faundation. I am also currently interested in
               graphic design.
             </p>
+            <br></br>
             <p className="tinos-regular text-lg text-center">
               Have a look at my instagram accounts for more of my art:
             </p>

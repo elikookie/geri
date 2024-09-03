@@ -22,9 +22,14 @@ export default function Poetry() {
               Poetry Posters Series
             </h1>
           </div>
-
+          <p className="p-5 text-center lg:p-10">
+            A series of Typographic posters for a poetry mockup reading event
+            inspired by poems of different poets that I really enjoy. They
+            represent how I would imagine the most important elements of the
+            poems themselves.
+          </p>
           <div className="flex flex-col items-center">
-            <div className="grid grid-cols-2 ">
+            <div className="lg:grid md:grid grid-cols-2 ">
               <div>
                 <img className="p-4 w-5/6" src="/post1.png"></img>
               </div>

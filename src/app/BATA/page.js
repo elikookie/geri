@@ -22,6 +22,13 @@ export default function Brand() {
               Brand Identity - Travel Agency
             </h1>
           </div>
+          <p className="p-5 text-center lg:p-10">
+            For this one it was client business mock-up based. I ask what the
+            client wants and I worked with the concept I was provided by them.
+            They wanted something clean looking but also not too complex,
+            representing the Earth&apos;s colours, as a symbol of being a nationwide
+            company.
+          </p>
 
           <div className="flex flex-col">
             <img className="p-10" src="/bi1.png"></img>
