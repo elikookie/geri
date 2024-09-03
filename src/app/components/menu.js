@@ -77,12 +77,12 @@ export default function Menu() {
           </li>
           <li>
             <Link className="hover:underline" href="/OriginalChar">
-              Original Charachters
+              Original Characters
             </Link>
           </li>
           <li>
             <Link className="hover:underline" href="/Pshycho">
-              Psychotryography Collages
+              Pshychotypography Collages
             </Link>
           </li>
           <li>
@@ -107,7 +107,7 @@ export default function Menu() {
           </li>
           <li>
             <Link className="hover:underline" href="/LetterVisuals">
-              Letter Visuals
+              Postcard Letter Visuals
             </Link>
           </li>
           <li>
@@ -117,7 +117,7 @@ export default function Menu() {
           </li>
           <li>
             <Link className="hover:underline" href="/ZineLiveEx">
-              Zine + Live Exhibition
+            Slice of Life Zine + Live Exhibition
             </Link>
           </li>
         </ul>

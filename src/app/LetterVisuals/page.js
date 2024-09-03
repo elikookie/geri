@@ -19,7 +19,7 @@ export default function Letter() {
         <div class="lg:col-span-3">
           <div ref={start} className="flex flex-col bg-slate-100 p-20">
             <h1 className=" dm-serif-display-regular font-bold text-3xl text-center">
-              Letter Visuals{" "}
+            Postcard Letter Visuals
             </h1>
           </div>
 
