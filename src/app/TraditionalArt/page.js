@@ -33,11 +33,20 @@ export default function Trad() {
             <div className="lg:grid md:grid grid-cols-2">
               <div>
                 <img className="p-5" src="/ta1.jpg"></img>
+                <figcaption>Jennie - Blackpink</figcaption>
+
                 <img className="p-5" src="/ta2.jpg"></img>
+                <figcaption>Fu Xuan - Honkai Star Rail</figcaption>
+                <img className="p-5" src="/ta4.jpg"></img>
+                <figcaption>Kim Taehyung - BTS</figcaption>
               </div>
               <div>
                 <img className="p-5" src="/ta3.jpg"></img>
+                <figcaption>Lalisa - Blackpink</figcaption>
                 <img className="p-5" src="/ta4.png"></img>
+                <figcaption>Park Jimin - BTS</figcaption>
+                <img className="p-5" src="/ta5.png"></img>
+                <figcaption>Rose - Blackpink</figcaption>
               </div>
             </div>
             <button className="text-5xl" onClick={() => scrollToTop(start)}>
