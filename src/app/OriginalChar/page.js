@@ -33,9 +33,11 @@ export default function OC() {
             <div className="lg:grid md:grid grid-cols-2 ">
               <div>
                 <img className="p-4 w-5/6" src="/oc1.png"></img>
+                <img className="p-4 w-5/6" src="/oc4.png"></img>
               </div>
               <div>
                 <img className="p-4 w-5/6" src="/oc2.png"></img>
+                <img className="p-4 w-5/6" src="/oc5.png"></img>
               </div>
             </div>
             <img className="p-4 w-3/6" src="/oc3.png"></img>

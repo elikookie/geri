@@ -35,12 +35,16 @@ export default function Digital() {
                 <figcaption>Mavuika - Genshin Impact</figcaption>
                 <img className="p-5" src="/da2.png"></img>
                 <figcaption>Robin - Honkai Star Rail</figcaption>
+                <img className="p-5" src="/da5.png"></img>
+                <figcaption>Robin + Boothill - Honkai Star Rail</figcaption>
               </div>
               <div>
                 <img className="p-5" src="/da3.png"></img>
                 <figcaption>Acheron  - Honkai Star Rail</figcaption>
                 <img className="p-5" src="/da4.png"></img>
                 <figcaption>Douyin Girl Photo Study</figcaption>
+                <img className="p-5" src="/da6.png"></img>
+                <figcaption>Yingxing/Blade - Honkai Star Rail</figcaption>
               </div>
             </div>
             <button className="text-5xl" onClick={() => scrollToTop(start)}>
