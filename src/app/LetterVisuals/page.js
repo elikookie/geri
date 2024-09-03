@@ -23,20 +23,32 @@ export default function Letter() {
             </h1>
           </div>
           <p className="p-5 text-center lg:p-10">
-            These are postcards with an original letter visual; the &apos;G&apos; being a
-            part of my name. Something I messed around with to get my senses
-            going, no particular meaning :)
+            These are postcards with an original letter visual; the
+            &apos;G&apos; being a part of my name. Something I messed around
+            with to get my senses going, no particular meaning :)
           </p>
-          <div className="flex flex-col">
-            <div className="lg:grid md:grid grid-cols-2">
-              <div>
-                <img className="p-5 w-5/6" src="/pcv1.png"></img>
-                <img className="p-5 w-5/6" src="/pcv2.png"></img>
-              </div>
-              <div>
-                <img className="p-5 w-5/6" src="/pcv3.png"></img>
-                <img className="p-5 w-5/6" src="/pcv4.png"></img>
-              </div>
+          <div className="flex flex-col items-center mt-8">
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-2">
+              <img
+                className="p-2 w-full max-w-xs lg:max-w-sm"
+                src="/pcv1.png"
+                alt="Postcard 1"
+              />
+              <img
+                className="p-2 w-full max-w-xs lg:max-w-sm"
+                src="/pcv2.png"
+                alt="Postcard 2"
+              />
+              <img
+                className="p-2 w-full max-w-xs lg:max-w-sm"
+                src="/pcv3.png"
+                alt="Postcard 3"
+              />
+              <img
+                className="p-2 w-full max-w-xs lg:max-w-sm"
+                src="/pcv4.png"
+                alt="Postcard 4"
+              />
             </div>
             <button className="text-5xl" onClick={() => scrollToTop(start)}>
               ↑

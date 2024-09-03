@@ -35,7 +35,7 @@ export default function Letter() {
             </li>
             <li className="p-5 underline">
               <a href="http://www.linkedin.com/in/gergana-koleva-b7b212223/">
-                LinkedIn
+                LinkedIn Profile
               </a>
             </li>
             <li className="p-5">
