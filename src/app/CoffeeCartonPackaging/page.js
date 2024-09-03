@@ -14,11 +14,9 @@ export default function Coffee() {
   const start = useRef(null);
   return (
     <main>
-      <div className="grid grid-cols-4 gap-4">
-        <div class="col-span-1 p-10">
-          <Menu></Menu>
-        </div>
-        <div class="col-span-3">
+      <div className="grid lg:grid-cols-4 gap-4">
+        <Menu></Menu>
+        <div class="lg:col-span-3">
           <div ref={start} className="flex flex-col bg-slate-100 p-20">
             <h1 className=" dm-serif-display-regular font-bold text-3xl text-center">
               Coffee Carton Packaging
@@ -26,7 +24,11 @@ export default function Coffee() {
           </div>
 
           <div className="flex flex-col">
-            <img className="p-10" src="/coffee.png" alt="Horror themed zine"></img>
+            <img
+              className="p-10"
+              src="/coffee.png"
+              alt="Horror themed zine"
+            ></img>
             <button className="text-5xl" onClick={() => scrollToTop(start)}>
               ↑
             </button>

@@ -1,11 +1,11 @@
-import Menu
- from "./components/menu";
+import Menu from "./components/menu";
+
 export default function Home() {
   return (
     <main>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid lg:grid-cols-4 gap-4">
          <Menu></Menu>
-        <div class="col-span-3">
+        <div class="lg:col-span-3">
           <div className="flex flex-col bg-slate-100 px-20 pt-20 pb-5">
             <p className="tinos-bold text-xl text-center p-10">
               Hi, my name is Gergana Koleva (Geri) and I am a self-taught

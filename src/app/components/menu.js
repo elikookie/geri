@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { useState } from "react";
 
@@ -9,7 +11,7 @@ export default function Menu() {
   };
 
   return (
-    <div class="col-span-1 lg:p-10">
+    <div class="lg:col-span-1 p-10">
       <button className="p-2 lg:hidden" onClick={toggleMenu}>
         <svg
           className="h-6 w-6"
@@ -29,15 +31,39 @@ export default function Menu() {
       </button>
 
       <div
-        className={` 
-        ${isOpen ? "block" : "hidden"} lg:block`}
+        className={`fixed inset-0 bg-white p-6 z-30 transition-transform duration-300 ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        } lg:relative lg:translate-x-0 lg:block lg:bg-transparent lg:p-0`}
       >
+        {/* Close Button (Visible only on smaller screens) */}
+        <button
+          className="absolute top-4 right-4 p-2 lg:hidden"
+          onClick={toggleMenu}
+        >
+          <svg
+            className="h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+
         <Link href="/">
           <img className="w-64" src="logo.png"></img>
         </Link>
 
         <p className="font-bold">Work</p>
         <hr className="p-2"></hr>
+        
         <ul className="flex flex-col space-y-3">
           <li>
             <Link className="hover:underline" href="/DigitalArt">

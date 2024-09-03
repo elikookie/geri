@@ -14,11 +14,9 @@ export default function OC() {
   const start = useRef(null);
   return (
     <main>
-      <div className="grid grid-cols-4 gap-4">
-        <div class="col-span-1 p-10">
-          <Menu></Menu>
-        </div>
-        <div class="col-span-3">
+      <div className="grid lg:grid-cols-4 gap-4">
+        <Menu></Menu>
+        <div class="lg:col-span-3">
           <div ref={start} className="flex flex-col bg-slate-100 p-20">
             <h1 className=" dm-serif-display-regular font-bold text-3xl text-center">
               Original Charachters
