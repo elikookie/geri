@@ -4,9 +4,7 @@ export default function Home() {
   return (
     <main>
       <div className="grid grid-cols-4 gap-4">
-        <div class="col-span-1 p-10">
          <Menu></Menu>
-        </div>
         <div class="col-span-3">
           <div className="flex flex-col bg-slate-100 px-20 pt-20 pb-5">
             <p className="tinos-bold text-xl text-center p-10">

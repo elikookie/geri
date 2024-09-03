@@ -10,7 +10,7 @@ const scrollToTop = (elementRef) => {
   });
 };
 
-export default function Brand() {
+export default function OC() {
   const start = useRef(null);
   return (
     <main>
