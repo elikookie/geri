@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Menu() {
   return (
-    <>
+    <div>
       <Link href="/">
         <img className="w-64" src="logo.png"></img>
       </Link>
@@ -44,6 +44,6 @@ export default function Menu() {
           <Link href="/LetterVisuals">Letter Visuals</Link>
         </li>
       </ul>
-    </>
+    </div>
   );
 }
