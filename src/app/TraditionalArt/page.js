@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -32,20 +33,48 @@ export default function Trad() {
           <div className="flex flex-col">
             <div className="lg:grid md:grid grid-cols-2">
               <div>
-                <img className="p-5" src="/ta1.jpg"></img>
+                <ImageModal
+                  className="p-5"
+                  src="/ta1.jpg"
+                  alt="Jennie Blackpink"
+                />
                 <figcaption>Jennie - Blackpink</figcaption>
 
-                <img className="p-5" src="/ta2.jpg"></img>
+                <ImageModal
+                  className="p-5"
+                  src="/ta2.jpg"
+                  alt="Fu Xuan - Honkai Star Rail"
+                />
                 <figcaption>Fu Xuan - Honkai Star Rail</figcaption>
-                <img className="p-5" src="/ta4.jpg"></img>
-                <figcaption>Kim Taehyung - BTS</figcaption>
+
+                <ImageModal
+                  className="p-5"
+                  src="/ta3.jpg"
+                  alt="Lalisa Blackpink"
+                />
+                <figcaption>Lalisa Blackpink </figcaption>
               </div>
+
               <div>
-                <img className="p-5" src="/ta3.jpg"></img>
-                <figcaption>Lalisa - Blackpink</figcaption>
-                <img className="p-5" src="/ta4.png"></img>
-                <figcaption>Park Jimin - BTS</figcaption>
-                <img className="p-5" src="/ta5.png"></img>
+              <ImageModal
+                  className="p-5"
+                  src="/ta4.jpg"
+                  alt="Kim Taehyung BTS"
+                />
+                <figcaption>Kim Taehyung- BTS</figcaption>
+                
+                <ImageModal
+                  className="p-5"
+                  src="/ta4.png"
+                  alt="Park Jimin BTS"
+                />
+                 <figcaption>Park Jimin - BTS</figcaption>
+
+                 <ImageModal
+                  className="p-5"
+                  src="/ta5.png"
+                  alt="Rose Blackpink"
+                />
                 <figcaption>Rose - Blackpink</figcaption>
               </div>
             </div>

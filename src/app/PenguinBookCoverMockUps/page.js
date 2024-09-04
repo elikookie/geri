@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -28,18 +29,18 @@ export default function Book() {
             lost in unknown situations and being challenged to find their way
             out in the most unexpected of ways. The logo accompanying them
             represents exactly that. The sun being the bright side of things,
-            but the zigzag lines are the hidden &quot;thorns/vines&quot; or the evil so to
-            speak entangled in this whole adventure.
+            but the zigzag lines are the hidden &quot;thorns/vines&quot; or the
+            evil so to speak entangled in this whole adventure.
           </p>
           <div className="flex flex-col">
             <div className="lg:grid md:grid grid-cols-2">
               <div>
-                <img src="/bc1.png"></img>
-                <img src="/bc2.png"></img>
+                <ImageModal className="" src="/bc1.png" alt="Book Cover 1" />
+                <ImageModal className="" src="/bc2.png" alt="Book Cover 2" />
               </div>
               <div>
-                <img src="/bc3.png"></img>
-                <img src="/bc4.png"></img>
+                <ImageModal className="" src="/bc3.png" alt="Book Cover 3" />
+                <ImageModal className="" src="/bc4.png" alt="Book Cover 4" />
               </div>
             </div>
             <button className="text-5xl" onClick={() => scrollToTop(start)}>

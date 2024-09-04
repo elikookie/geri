@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -33,11 +34,18 @@ export default function Psycho() {
           <div className="flex flex-col">
             <div className="lg:grid md:grid-cols-2">
               <div>
-                <img className="p-10" src="/p1.png"></img>
+              <ImageModal
+                  className="p-10"
+                  src="/p1.png"
+                  alt="Psychotypography Collage 1"
+                />
               </div>
               <div>
-                <img className="p-10" src="/p2.png"></img>
-              </div>
+              <ImageModal
+                  className="p-10"
+                  src="/p2.png"
+                  alt="Psychotypography Collage 1"
+                />              </div>
             </div>
 
             <button className="text-5xl" onClick={() => scrollToTop(start)}>

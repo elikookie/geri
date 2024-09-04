@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -31,20 +32,56 @@ export default function Digital() {
           <div className="flex flex-col">
             <div className="lg:grid md:grid grid-cols-2">
               <div>
-                <img className="p-5" src="/da1.png"></img>
-                <figcaption>Mavuika - Genshin Impact</figcaption>
-                <img className="p-5" src="/da2.png"></img>
-                <figcaption>Robin - Honkai Star Rail</figcaption>
-                <img className="p-5" src="/da5.png"></img>
-                <figcaption>Robin + Boothill - Honkai Star Rail</figcaption>
+                <ImageModal
+                  className="p-10"
+                  src="/da1.png"
+                  alt="Mavuika Genshin Impact"
+                />
+                <figcaption className="px-10">
+                  Mavuika - Genshin Impact
+                </figcaption>
+                <ImageModal
+                  className="p-10"
+                  src="/da2.png"
+                  alt="Robin Honkai Star Rail"
+                />
+                <figcaption className="px-10">
+                  Robin - Honkai Star Rail
+                </figcaption>
+                <ImageModal
+                  className="p-10"
+                  src="/da5.png"
+                  alt="Robin Boothill Honkai Star Rail"
+                />
+                <figcaption className="px-10">
+                  Robin + Boothill - Honkai Star Rail
+                </figcaption>
               </div>
               <div>
-                <img className="p-5" src="/da3.png"></img>
-                <figcaption>Acheron  - Honkai Star Rail</figcaption>
-                <img className="p-5" src="/da4.png"></img>
-                <figcaption>Douyin Girl Photo Study</figcaption>
-                <img className="p-5" src="/da6.png"></img>
-                <figcaption>Yingxing/Blade - Honkai Star Rail</figcaption>
+                <ImageModal
+                  className="p-10"
+                  src="/da3.png"
+                  alt="Acheron Honkai Star Rail"
+                />
+                <figcaption className="px-10">
+                  Acheron - Honkai Star Rail
+                </figcaption>
+                <ImageModal
+                  className="p-10"
+                  src="/da4.png"
+                  alt="Douyin Girl Photo Study"
+                />
+                <figcaption className="px-10">
+                  Douyin Girl Photo Study
+                </figcaption>
+                <ImageModal
+                  className="p-10"
+                  src="/da6.png"
+                  alt="Blade Honkai Star Rail"
+                />
+                <figcaption className="px-10">
+                  Yingxing/Blade - Honkai Star Rail
+                </figcaption>
               </div>
             </div>
             <button className="text-5xl" onClick={() => scrollToTop(start)}>

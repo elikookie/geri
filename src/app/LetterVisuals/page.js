@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -29,22 +30,22 @@ export default function Letter() {
           </p>
           <div className="flex flex-col items-center mt-8">
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-2">
-              <img
+              <ImageModal
                 className="p-2 w-full max-w-xs lg:max-w-sm"
                 src="/pcv1.png"
                 alt="Postcard 1"
               />
-              <img
+              <ImageModal
                 className="p-2 w-full max-w-xs lg:max-w-sm"
                 src="/pcv2.png"
                 alt="Postcard 2"
               />
-              <img
+              <ImageModal
                 className="p-2 w-full max-w-xs lg:max-w-sm"
                 src="/pcv3.png"
                 alt="Postcard 3"
               />
-              <img
+              <ImageModal
                 className="p-2 w-full max-w-xs lg:max-w-sm"
                 src="/pcv4.png"
                 alt="Postcard 4"

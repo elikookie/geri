@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -32,18 +33,18 @@ export default function LiveEx() {
           <div className="flex flex-col">
             <div className="lg:grid md:grid grid-cols-2">
               <div>
-                <img
-                  className="p-10"
+                <ImageModal
                   src="/finalzine.png"
-                  alt="Horror themed zine"
-                ></img>
+                  alt="Slice of life zine"
+                  className="p-10"
+                />
               </div>
               <div>
-                <img
+                <ImageModal
                   className="p-10"
                   src="/lifeex.jpg"
-                  alt="Horror themed OC"
-                ></img>
+                  alt="Live Exhibition"
+                />
               </div>
             </div>
 

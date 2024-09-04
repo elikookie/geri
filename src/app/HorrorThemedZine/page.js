@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -32,18 +33,18 @@ export default function HorrorThemedZine() {
           </p>
           <div className="lg:grid md:grid grid-cols-2">
             <div>
-              <img
+              <ImageModal
                 className="p-10"
                 src="/alyssaA3-1.png"
                 alt="Horror themed zine"
-              ></img>
+              />
             </div>
             <div>
-              <img
+              <ImageModal
                 className="p-10"
                 src="/alyssa.jpg"
                 alt="Horror themed OC"
-              ></img>
+              />
             </div>
           </div>
           <button className="text-5xl p-5" onClick={() => scrollToTop(start)}>

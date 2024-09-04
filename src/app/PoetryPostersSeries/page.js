@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -29,15 +30,29 @@ export default function Poetry() {
             poems themselves.
           </p>
           <div className="flex flex-col items-center">
-            <div className="lg:grid md:grid grid-cols-2 ">
+            <div className="lg:grid md:grid grid-cols-3 gap-2 place-content-center ">
               <div>
-                <img className="p-4 w-5/6" src="/post1.png"></img>
+                <ImageModal
+                  className=""
+                  src="/post1.png"
+                  alt="Poster 1"
+                />
               </div>
               <div>
-                <img className="p-4 w-5/6" src="/post2.png"></img>
+                <ImageModal
+                  className=""
+                  src="/post2.png"
+                  alt="Poster 2"
+                />{" "}
+              </div>
+              <div>
+                <ImageModal
+                  className=""
+                  src="/post3.png"
+                  alt="Poster 3"
+                />
               </div>
             </div>
-            <img className="p-4 w-5/6" src="/post3.png"></img>
 
             <button className="text-5xl" onClick={() => scrollToTop(start)}>
               ↑

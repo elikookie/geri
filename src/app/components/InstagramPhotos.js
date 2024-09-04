@@ -1,19 +1,19 @@
-import React from "react";
+"use client";
 
-const InstagramPhotos= ({ mediaItems }) => {
+import React from "react";
+import ImageModal from "./ImageModal";
+
+const InstagramPhotos = ({ mediaItems }) => {
   return (
     <div className="container mx-auto p-4">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {mediaItems.map((media) => (
-          <div
-            key={media.id}
-            className="bg-white shadow rounded-lg overflow-hidden"
-          >
+          <div key={media.id}>
             {media.media_type === "IMAGE" ? (
-              <img
+              <ImageModal
                 src={media.media_url}
                 alt={`Instagram media by ${media.username}`}
-                className="w-full h-64 object-cover"
+                className=""
               />
             ) : (
               <video controls className="w-full h-64">
@@ -21,14 +21,6 @@ const InstagramPhotos= ({ mediaItems }) => {
                 Your browser does not support the video tag.
               </video>
             )}
-            <div className="p-4">
-              <p className="text-sm text-gray-500">
-                Posted by {media.username}
-              </p>
-              <p className="text-sm text-gray-500">
-                {new Date(media.timestamp).toLocaleDateString()}
-              </p>
-            </div>
           </div>
         ))}
       </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -32,15 +33,35 @@ export default function OC() {
           <div className="flex flex-col items-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
               <div className="flex flex-col items-center">
-                <img className="p-4 w-4/5 lg:w-full" src="/oc1.png" alt="OC1"></img>
-                <img className="p-4 w-4/5 lg:w-full" src="/oc4.png" alt="OC4"></img>
+                <ImageModal
+                  className="p-4 w-4/5 lg:w-full"
+                  src="/oc1.png"
+                  alt="OC1"
+                />
+                <ImageModal
+                  className="p-4 w-4/5 lg:w-full"
+                  src="/oc4.png"
+                  alt="OC4"
+                />
               </div>
               <div className="flex flex-col items-center">
-                <img className="p-4 w-4/5 lg:w-full" src="/oc2.png" alt="OC2"></img>
-                <img className="p-4 w-4/5 lg:w-full" src="/oc5.png" alt="OC5"></img>
+                <ImageModal
+                  className="p-4 w-4/5 lg:w-full"
+                  src="/oc2.png"
+                  alt="OC2"
+                />
+                <ImageModal
+                  className="p-4 w-4/5 lg:w-full"
+                  src="/oc5.png"
+                  alt="OC5"
+                />
               </div>
             </div>
-            <img className="p-4 w-4/5 lg:w-2/3 mt-6" src="/oc3.png" alt="OC3"></img>
+            <ImageModal
+              className="p-4 w-4/5 lg:w-2/3 mt-6"
+              src="/oc3.png"
+              alt="OC3"
+            />
 
             <button
               className="text-5xl mt-10 p-2"
