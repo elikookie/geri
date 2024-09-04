@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -29,11 +30,11 @@ export default function Coffee() {
             rush flavour and perhaps indulging my own imagination.
           </p>
           <div className="flex flex-col">
-            <img
+            <ImageModal
               className="p-10"
               src="/coffee.png"
-              alt="Horror themed zine"
-            ></img>
+              alt="Coffee Packaging"
+            />
             <button className="text-5xl" onClick={() => scrollToTop(start)}>
               ↑
             </button>

@@ -1,5 +1,6 @@
 "use client";
 
+import ImageModal from "../components/ImageModal";
 import Menu from "../components/menu";
 import { useRef } from "react";
 
@@ -26,13 +27,21 @@ export default function Brand() {
             For this one it was client business mock-up based. I ask what the
             client wants and I worked with the concept I was provided by them.
             They wanted something clean looking but also not too complex,
-            representing the Earth&apos;s colours, as a symbol of being a nationwide
-            company.
+            representing the Earth&apos;s colours, as a symbol of being a
+            nationwide company.
           </p>
 
           <div className="flex flex-col">
-            <img className="p-10" src="/bi1.png"></img>
-            <img className="p-10" src="/bi2.png"></img>
+            <ImageModal
+              className="p-10"
+              src="/bi1.png"
+              alt="Brand"
+            />
+            <ImageModal
+              className="p-10"
+              src="/bi2.png"
+              alt="Brand"
+            />
             <button className="text-5xl" onClick={() => scrollToTop(start)}>
               ↑
             </button>
