@@ -88,6 +88,11 @@ export default function Menu() {
             </Link>
           </li>
           <li>
+            <Link className="hover:underline" href="/AxisModelPosters">
+              Axis Model Managment Posters
+            </Link>
+          </li>
+          <li>
             <Link className="hover:underline" href="/Psycho">
               Psychotypography Collages
             </Link>
